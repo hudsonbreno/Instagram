@@ -1,0 +1,25 @@
+.status {
+  width: 614px;
+  height: 118px;
+  display: flex;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.bg-icone {
+  width: 56px;
+  height: 100%;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.icone-status {
+  position: relative;
+  top: 0px;
+  left: -61px;
+  height: 56px;
+  width: 56px;
+}

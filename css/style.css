@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+.container-conteudo {
+  width: 935px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  width: 935px;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icones {
+  display: flex;
+  flex-direction: row;
+}
+
+.icones a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo-instagram {
+  padding: 0px 20px;
+  border-right: 1px solid #dbdbdb;
+}
+.instagram {
+  margin: 20px;
+}
+
+.send-desktop {
+  display: none;
+}
+
+.bar-pesquisa {
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 215px;
+  height: 28px;
+}
+
+.menu {
+  padding-right: 20px;
+}
+.menu a {
+  padding-left: 12px;
+}

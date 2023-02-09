@@ -1,0 +1,70 @@
+.conteudo-pagina {
+  width: 100%;
+  display: flex;
+  /*background-color: gray;*/
+  padding-top: 34px;
+}
+
+.coluna-posts {
+  /*background-color: blue;*/
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.post-feed {
+  border: 1px solid #dbdbdb;
+  margin-top: 24px;
+}
+
+.cabecalho-feed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.cabecalho-direita {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.cabecalho-feed img {
+  height: 32px;
+  width: 32px;
+  padding: 0 17px;
+}
+.three-points {
+  font-size: 25px;
+  padding-right: 15px;
+}
+
+.inferior-cima {
+  width: 580px;
+  padding: 0px 17px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.inferior-cima img {
+  padding-right: 15px;
+}
+.inferior-direito {
+  display: flex;
+  justify-content: center;
+}
+
+.inferior-baixo {
+  display: flex;
+  justify-content: start;
+  padding: 14px 17px;
+}
+
+.inferior-baixo img {
+  padding: 5px;
+}
+
+.inferior-baixo p {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

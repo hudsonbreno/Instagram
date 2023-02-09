@@ -1,0 +1,28 @@
+@media (max-width: 614px) {
+  .icones {
+    width: 100%;
+    display: row;
+    justify-content: space-between;
+  }
+  .instagram {
+    margin: 0;
+    width: 100%;
+  }
+
+  .send-desktop {
+    padding-right: 20px;
+    display: initial;
+  }
+  .logo-instagram {
+    border: 0px;
+  }
+  .bar-pesquisa {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .container-side-bar {
+    display: none;
+  }
+}

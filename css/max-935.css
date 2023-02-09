@@ -1,0 +1,16 @@
+@media (max-width: 935px) {
+  body {
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+  }
+  .conteudo-pagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container-side-bar {
+    display: none;
+  }
+}

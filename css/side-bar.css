@@ -1,0 +1,99 @@
+.container-side-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-bar {
+  width: 293px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*background-color: green;*/
+}
+
+.eu {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.eu img {
+  margin-bottom: 24px;
+  margin-right: 17px;
+  margin-top: 23px;
+}
+
+.subnome {
+  font-weight: 300;
+}
+.sugestoes {
+  display: flex;
+  justify-content: space-between;
+  margin: 9px 0px;
+}
+.ver_tudo {
+  font-weight: 500;
+  color: #262626;
+}
+
+.sobre {
+  width: 293px;
+  font-size: 11px;
+  font-weight: 400;
+  color: #c7c7c7;
+}
+
+.sobre p {
+  margin: 10px 0;
+}
+.coluna-posts {
+  display: flex;
+  flex-direction: column;
+}
+
+.lista-sugestoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 6px 2px;
+}
+.sugestoes-direita {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lista-sugestoes img {
+  height: 32px;
+  width: 32px;
+  padding: 1px 10px;
+}
+.nome-sugestoes {
+  font-weight: 500;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nome-susgestao-cima {
+  font-size: 14px;
+  color: #262626;
+  font-weight: 500;
+}
+
+.subtitulo {
+  color: #8e8e8e;
+  font-size: 12px;
+}
+
+.seguir {
+  color: #139ef2;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
